@@ -9,7 +9,7 @@
 //   anagrams('Hi there', 'Bye there') --> False
 
 function anagrams(stringA, stringB) {
-  console.log();
+  console.log('asdasd');
 }
 
 module.exports = anagrams;
