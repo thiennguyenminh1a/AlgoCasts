@@ -12,6 +12,20 @@
 //   4
 //   buzz
 
-function fizzBuzz(n) {}
+function fizzBuzz(n) {
+  for (var i = 1; i <= n; i++) {
+    const isMutipleByThere = i % 3 === 0;
+    const isMutipleByFive = i % 5 === 0;
+    if (isMutipleByThere && isMutipleByFive) {
+      console.log('fizzbuzz');
+    } else if (isMutipleByThere) {
+      console.log('fizz');
+    } else if (isMutipleByFive) {
+      console.log('buzz');
+    } else {
+      console.log(i);
+    }
+  }
+}
 
 module.exports = fizzBuzz;
